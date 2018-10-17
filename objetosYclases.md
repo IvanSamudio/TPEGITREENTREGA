@@ -34,3 +34,13 @@ Ahora, vamos a crear un nuevo objeto del tipo *Person* con más detalle, complet
 Los métodos son cómo funciones en **Python**, ya que se definen con la palabra clave def y cuentan con el mismo formato que las funciones. En nuestra clase, vamos a definir un método que imprima el nombre (name) y la escuela (school) de una persona (*Person*). La clase se verá de la siguiente manera:
 
 ![imagen en Markdown](images/métodos.png)
+
+## Inicialización ##
+
+
+En la sección anterior, hemos inicializado name y school, dándoles un valor vacío ''. Pero hay una forma más elegante de inicializar variables con sus valores predeterminados. El inicializador es un método especial, con nombre __init__ (el método se considera especial y será tratado de forma especial, es por eso que tiene subrayados dobles al principio y al final).
+
+Vamos a modificar el programa anterior para utilizar el inicializador. En este caso, el programa se verá como sigue:
+
+
+![imagen en Markdown](images/Inicialización.png)
